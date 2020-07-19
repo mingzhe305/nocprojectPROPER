@@ -1,11 +1,15 @@
 {
   "ExpandedNodes": [
     "",
-    "\\social_webapp",
+    "\\homepage",
+    "\\homepage\\static",
+    "\\homepage\\static\\assets",
+    "\\homepage\\static\\assets\\img",
+    "\\homepage\\templates",
+    "\\homepage\\templates\\homepage",
     "\\userpage",
     "\\userpage\\templates",
     "\\userpage\\templates\\userpage"
   ],
-  "SelectedNode": "\\userpage\\views.py",
   "PreviewInSolutionExplorer": false
 }
