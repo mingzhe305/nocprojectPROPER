@@ -9,6 +9,3 @@ def all_interests(request):
 #kiv interest_home
 def interest_home(request, interest_name):
     return render(request, 'interestpage/interest_home.html')
-
-def index(request):
-    return render(request,"interestpage/index.html")

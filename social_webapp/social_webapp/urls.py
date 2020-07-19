@@ -25,7 +25,7 @@ from userpage import views as views_user
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('', views_home.home, name='home'),
-    path('interests/', views_interest.index, name='all_interests'),
+    path('interests/', views_interest.all_interests, name='all_interests'),
     path('user/', views_user.userpage, name='userpage'),
 ]
 
